@@ -2,10 +2,9 @@
   <div class="commodity-elem">
     <button @click="changeCalculationData({ size: positionSizeGroup, name: commodity.name })">
       <span>
-        <img class="commodity-elem__icon" src="@/assets/honey.svg" alt="">
+        <img class="commodity-elem__icon" src="@/assets/honey.svg" alt="" />
       </span>
       <span>{{ commodity.name }}</span>
-      
     </button>
   </div>
 </template>

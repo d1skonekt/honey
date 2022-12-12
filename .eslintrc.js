@@ -10,7 +10,8 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    singleQuote: true,
+    singleQuote: 0,
+    'vue/multi-word-component-names': ['warn'],
   },
   overrides: [
     {

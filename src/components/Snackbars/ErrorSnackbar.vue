@@ -30,9 +30,9 @@ export default {
       changeErrorMsg: 'changeErrorMsg',
     }),
 
-    closeError(){
+    closeError() {
       this.changeErrorMsg(null)
-    }
+    },
   },
 }
 </script>

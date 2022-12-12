@@ -110,7 +110,7 @@ export default {
       immediate: true,
     },
     getChartSwitcher: {
-      handler(newVal) {
+      handler() {
         this.$nextTick(() => {
           if (this.getChartSwitcher) {
             this.createChart()

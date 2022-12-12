@@ -19,7 +19,7 @@
 
       <div class="result__data-btns">
         <button class="result__data-download" @click="download">
-          <img  class="bounce" src="@/assets/angles-down-solid.svg" />
+          <img class="bounce" src="@/assets/angles-down-solid.svg" />
           <span>Download</span>
         </button>
       </div>
