@@ -5,7 +5,7 @@
       <h3 class="instruction__example">
         <span>{{ $t('instruction-example') }}</span>
         <span class="instruction__example-icon">
-          <a href="/files/example.xlsx" download>
+          <a href="files/example.xlsx" download>
             <img src="@/assets/sheet-icon.png" />
           </a>
         </span>
@@ -23,7 +23,7 @@
       </ul>
       <div class="instruction__video">
         <video controls>
-          <source src="/files/example.mp4" type="video/mp4" />
+          <source src="files/example.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
