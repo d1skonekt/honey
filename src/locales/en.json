@@ -1,0 +1,13 @@
+{
+  "instruction-title": "Instructions for using the resource",
+  "instruction-example": "An example of an xlsx file required for calculations",
+  "instruction-point-1": "All titles must be in English only",
+  "instruction-point-2": "If the name or ingredient consists of 2 or more words use '-' to separate (no spaces between words)",
+  "instruction-point-3": "The table from the example contains 3 suitable. The Commodities table is the main one and is linked to the other two. To the Names table, you need to add product names that should be displayed in the NAME column of the Commodities table. The ingredients table contains all the ingredients that are also related to the Commodities table and will be displayed in the gray columns of this table",
+  "instruction-point-4": "After choosing an ingredient, enter its weight in grams in the next column (only numeric format is allowed)",
+  "instruction-point-5": "You also need to add the size of the product in the corresponding column (products are grouped according to size)",
+  "instruction-point-6": "After creating a table with data, you need to go to the Calculation section and upload your table (if you see an error reading data from the table - it is recommended to check the first 4 points of the Instructions)",
+  "instruction-point-7": "After processing the table, you will see all the products you added to the table divided by size",
+  "instruction-point-8": "Click on the product name, after which the product card will appear with the composition and the ability to specify the required quantity. After that, the button for calculation will be unlocked.",
+  "instruction-point-9": "After clicking the Calculate button, the program will calculate all the ingredients and display them on the screen with the option of downloading"
+}

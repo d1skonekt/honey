@@ -1,0 +1,45 @@
+.main-btn {
+  border-radius: 15px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 500;
+  height: 2.5rem;
+  padding: 1.4rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  &:disabled {
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.5;
+    text-shadow: none;
+  }
+}
+
+.warning-btn {
+  @extend .main-btn;
+  background: linear-gradient(to right, #f27121, #e94057, #8a2387);
+
+  &:hover {
+    box-shadow: rgba(#e94057, 0.5) 0 1px 30px;
+    transition-duration: 0.1s;
+  }
+}
+
+.simple-btn {
+  @extend .main-btn;
+  background: linear-gradient(90deg, rgba(67, 101, 90, 1) 0%, rgba(93, 125, 125, 1) 50%, rgba(126, 150, 156, 1) 100%);
+
+  &:hover {
+    box-shadow: rgba(67, 101, 90, 0.5) 0 1px 30px;
+    transition-duration: 0.1s;
+  }
+}
